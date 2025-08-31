@@ -33,6 +33,7 @@ def input_game():
             start_path='/'
             for dirpath, dirnames, filenames in os.walk(start_path):
                 print(dirpath)
+            print("Done :3")
         else:
             print("You should not be able to see this... Uh, error 420?")
     
